@@ -1,0 +1,27 @@
+
+
+:root{
+    background-color: rgb(23, 26, 39);
+}
+
+body, html{
+    overflow-x: hidden;
+}
+
+*:not(html){
+    scrollbar-width: none;
+}
+
+.Scrollbar-transparent{
+    scrollbar-color: rgb(38, 18, 86) transparent;
+    scrollbar-width: thin;
+}
+
+.lazy-card{
+    content-visibility: auto;
+    contain-intrinsic-size: 208px;
+}
+
+img{
+    image-rendering: optimizeQuality;
+}

@@ -1,0 +1,22 @@
+| Genre         | UUID                                   |
+| ------------- | -------------------------------------- |
+| Action        | `391b0423-d847-456f-aff0-8b0cfc03066b` |
+| Adventure     | `87cc87cd-a395-47af-b27a-93258283bbc6` |
+| Comedy        | `4d32cc48-9f00-4cca-9b5a-a839f0764984` |
+| Drama         | `f8f62932-27da-4fe4-8ee1-6779a8c5edba` |
+| Fantasy       | `cdc58593-87dd-415e-bbc0-2ec27bf404cc` |
+| Horror        | `cdad7e68-1419-41dd-bdce-27753074a640` |
+| Mecha         | `50880a9d-5440-4732-9afb-8f457127e836` |
+| Romance       | `423e2eae-a7a2-4a8b-ac03-a8351462d71d` |
+| Sci-Fi        | `256c8bd9-4904-4360-bf4f-508a76d67183` |
+| Sports        | `69964a64-2f90-4d33-beeb-f3ed2875eb4c` |
+| Supernatural  | `ac72833b-c49a-4b72-9c6d-1ca94f3e453e` |
+| Thriller      | `07251805-a27e-4d59-b488-f0bfbec15168` |
+| Mystery       | `ee968100-4191-4968-93d3-f82d72be7e46` |
+| Historical    | `f2642c18-d52d-4b60-bf92-270d56c3de39` |
+| Martial Arts  | `f6738fd0-a137-4c0e-b5c8-3eeed006a950` |
+| Slice of Life | `caaa44eb-cd40-4177-b930-79d3ef2afe87` |
+| Tragedy       | `f8f62932-27da-4fe4-8ee1-6779a8c5edba` |
+| Psychological | `3b60b75c-a2d7-4860-ab56-05f391bb889c` |
+| Isekai        | `4d2d2e2d-1237-45c7-a870-fb0da0b0c4e4` |
+| Harem         | `dc8c37b5-426a-4fad-bf6f-3d7e5b8c4b06` |
