@@ -4,11 +4,11 @@ const cors= require('cors')
 require('dotenv')
 
 //fetch
-const Search=require('./Fetch/FetchSeacth')
-const Genre=require('./Fetch/FetchGenre')
-const Newer=require('./Fetch/FetchNewer')
-const Pop=require('./Fetch/FetchPop')
-const Manga=require('./Fetch/FetchManga')
+const Search=require('./res/FetchSeacth')
+const Genre=require('./res/FetchGenre')
+const Newer=require('./res/FetchNewer')
+const Pop=require('./res/FetchPop')
+const Manga=require('./res/FetchManga')
 
 
 const PORT = process.env.PORT;
@@ -43,6 +43,9 @@ app.get('/manga/:id', async (req,res) =>{
   res.send(result)
 })
 
+app.get('/' ,( req , res ) => {
+  res.send('Server is Online!')
+})
 
 // Starting server
 app.listen(PORT,'0.0.0.0', () => {
