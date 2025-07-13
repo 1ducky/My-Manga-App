@@ -50,7 +50,7 @@ const Slide = () => {
                             <li key={item.id} className="w-screen h-full bg-sky-800 flex items-center justify-center relative">
                                 <Image src={FetchCover} 
                                 alt={item.attributes.title.en || item.attributes.title["ja-ro"] || item.attributes.title.ja || "No Title"} 
-                                className="w-full h-full object-cover object-[center_20%] "
+                                className=" object-cover object-[center_20%] "
                                 fill
                                 priority={index === 0 }
                                 loading={index === 0 ? undefined : 'lazy'} 

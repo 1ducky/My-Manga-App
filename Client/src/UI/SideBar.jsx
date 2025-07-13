@@ -42,22 +42,25 @@ const SideBar = ( {isOpen,onMenuClick} ) => {
                     </h2>
                 
                 <ul className="gap-3 flex flex-col w-full m-5">
-                    {SideBarData[0].menu.map ((item,index) => (
+                    {SideBarData[0].menu.map ((item,index) =>{ 
+                        const linkPath=item.Link.toLowerCase()
+                        return (
 
-                        <li 
-                        
-                        key={item.Title} 
-                        onClick={() => navigate.push(item.Link)}
-                        className="mx-5 text-xl cursor-pointer w-full p-3 px-6 hover:bg-indigo-950 rounded-full transition-all duration-300"
-                        style={{
-                            backgroundColor : `${CurentPatch === index ? '#1e1b4b' : ''}`
-                        }}>
+                            <li 
+                            
+                            
+                            key={item.Title} 
+                            onClick={() => navigate.push(linkPath)}
+                            className="mx-5 text-xl cursor-pointer w-full p-3 px-6 hover:bg-indigo-950 rounded-full transition-all duration-300"
+                            style={{
+                                backgroundColor : `${CurentPatch === index ? '#1e1b4b' : ''}`
+                            }}>
 
-                            {item.Icon && <span>{item.Icon} </span>}
-                            {item.Title}
+                                {item.Icon && <span>{item.Icon} </span>}
+                                {item.Title}
 
-                        </li>
-                    ))}
+                            </li>
+                    )})}
                 </ul>
                 <ul className="w-full flex flex-col m-5 gap-5">
                     {SideBarData[0].submenu.map ((item) => (

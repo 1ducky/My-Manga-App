@@ -30,7 +30,7 @@ const PopSlide= () => {
                              className="w-full h-80 object-cover rounded-md cursor-pointer" 
                             loading={index === 0  ? undefined : 'lazy'} 
                             decoding="async"
-                            width={100}
+                            width={256}
                             height={320}
                             />
                         

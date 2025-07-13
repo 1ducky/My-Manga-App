@@ -30,11 +30,11 @@ const LastestSlide = () => {
                                 <Image
                                 src={FetchCover} 
                                 alt={Manga.attributes.title.en || Manga.attributes.title["ja-ro"] || "Not Title"}
-                                 className="w-full h-80 object-cover rounded-md cursor-pointer" 
+                                 className=" object-cover rounded-md cursor-pointer" 
                                 loading={index === 0 ? undefined : 'lazy'} 
                                 decoding="async"
                                 priority={index === 0}
-                                width={100}
+                                width={208}
                                 height={320}
                                 
 

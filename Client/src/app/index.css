@@ -22,6 +22,3 @@ body, html{
     contain-intrinsic-size: 208px;
 }
 
-img{
-    image-rendering: optimizeQuality;
-}
